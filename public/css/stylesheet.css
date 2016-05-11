@@ -1,0 +1,136 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0;
+}
+body{
+    background-color: #c08081;
+}
+
+.container{
+    display: block;
+    width:60%;
+    height:60%;
+    margin-left:10%;
+    margin-top:5%;
+    margin-right:5%;
+    border: 5px solid #81c080;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.paintContainer{
+    display: block;
+    position: absolute;
+    width:60%;
+    height:20%;
+    margin-left:10%;
+    margin-right:5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border: none;
+
+
+}
+canvas{
+
+    border:5px solid #81c080;
+    display: block;
+    width:100%;
+    height:100%;
+
+}
+ul{
+
+    list-style-type:none;
+    padding:0;
+    border:0;
+    height:50px;
+}
+li{
+    margin:0;
+    padding:0;
+    border: 3px solid #81c080  ;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+}
+li.default{
+    border: 2px solid #FFF3B8;
+}
+li#black{
+    background:#000000;
+}
+li#red{
+    background:#ff0000;
+}
+li#orange{
+    background:#ffa500;
+}
+li#yellow{
+    background:#ffff00;
+}
+li#green{
+    background:#00ff00;
+}
+li#blue{
+    background:#0000ff;
+}
+li#indigo{
+    background:#4b0082;
+}
+li#violet{
+    background:#ff00ff;
+}
+li#brush1{
+    background:#86c0ba;
+    margin:0;
+    padding:3px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 50px;
+    cursor:pointer;
+}
+li#brush2{
+    background-color:#78aca7;
+    margin:0;
+    padding:3px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 50px;
+    cursor:pointer;
+}
+li#brush3{
+    background-color:#6b9994;
+    margin:0;
+    padding:3px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 50px;
+    cursor:pointer;
+}
+li#brush4{
+    background-color:#5d8682;
+    margin:0;
+    padding:3px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 50px;
+    cursor:pointer;
+}
+li#brush5{
+    background-color: #50736f;
+    margin:0;
+    padding:3px;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 50px;
+    cursor:pointer
+}
