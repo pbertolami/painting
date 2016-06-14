@@ -3,6 +3,7 @@
  * Opted not to use this navigation control as bootstrap was short circuting my code however decided to leave the code here for future use as it is good to go!
  * Note I loaded this project with twitter bootstrap and rue the day as it gets in the way of my code.
  */
+    /*
 
 var navSelection = document.getElementById("navSelection");
 var navSelections = navSelection.children;
@@ -24,4 +25,4 @@ for(var i=0; i < navSelections.length; i++) {
     });
 
 }
-
+*/

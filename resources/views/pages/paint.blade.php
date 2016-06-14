@@ -40,7 +40,7 @@
                         <a class="btn btn-primary btn-lg" href="/about" role="button" style="background-color:#86C0BA;">About</a>
                         <a class="btn btn-primary btn-lg" href="/contactform" role="button" style="background-color:#86C0BA;">Contact Us</a>
                         <a id="btnClear" class="btn btn-primary btn-lg" role="button" style="background-color:#86C0BA;">Clear</a>
-                        <a id="btnSave" value="capture" class="btn btn-primary btn-lg" role="button" style="background-color:#86C0BA;">Save</a><p/>
+                        <a id="btnCalc" value="capture" href="/paintcalculator" class="btn btn-primary btn-lg" role="button" style="background-color:#86C0BA;">Paint Calculator</a><p/>
 
 
                 </div>

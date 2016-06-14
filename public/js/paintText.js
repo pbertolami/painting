@@ -19,11 +19,60 @@ window.onload = function(){
     var str3 = pElement3.innerHTML;
     var trimStr3 = str3.trim().split(/\s+/);
 
+    var hElement4 = document.getElementById('htranscript4');
+    var strh4 = hElement4.innerHTML;
+    var trimStrh4 = strh4.trim().split(/\s+/);
+
+    var hElement5 = document.getElementById('htranscript5');
+    var strh5 = hElement5.innerHTML;
+    var trimStrh5 = strh5.trim().split(/\s+/);
+
+    var pElement4 = document.getElementById('ptranscript4');
+    var strp4 = pElement4.innerHTML;
+    var trimStrp4 = strp4.trim().split(/\s+/);
+
+    var pElement5 = document.getElementById('ptranscript5');
+    var strp5 = pElement5.innerHTML;
+    var trimStrp5 = strp5.trim().split(/\s+/);
+
 
             clear();
 
+        for(i=0; i < trimStrh4.length; i++){
+            var spanElementh4 = document.createElement("span");//create span elements for the number of words in the trimStr array of words
+            spanElementh4.id = "word" + [ i];//create a unique id for each span element
+            var textNodeh4 = document.createTextNode(trimStrh4[i] + " ");//create a textNode for each word in the trimStr array of words
+            spanElementh4.appendChild(textNodeh4);//attach the nodes to the span elements
+            htranscript4.appendChild(spanElementh4);//append the elements to the parent p "transcript"
+            spanElementh4.addEventListener("mouseover", mOverh4, false);
+        }
+        for(i=0; i < trimStrh5.length; i++){
+            var spanElementh5 = document.createElement("span");//create span elements for the number of words in the trimStr array of words
+            spanElementh5.id = "word" + [ i];//create a unique id for each span element
+            var textNodeh5 = document.createTextNode(trimStrh5[i] + " ");//create a textNode for each word in the trimStr array of words
+            spanElementh5.appendChild(textNodeh5);//attach the nodes to the span elements
+            htranscript5.appendChild(spanElementh5);//append the elements to the parent p "transcript"
+            spanElementh5.addEventListener("mouseover", mOverh5, false);
+        }
+        for(i=0; i < trimStrp4.length; i++){
+            var spanElementp4 = document.createElement("span");//create span elements for the number of words in the trimStr array of words
+            spanElementp4.id = "word" + [ i];//create a unique id for each span element
+            var textNodep4 = document.createTextNode(trimStrp4[i] + " ");//create a textNode for each word in the trimStr array of words
+            spanElementp4.appendChild(textNodep4);//attach the nodes to the span elements
+            ptranscript4.appendChild(spanElementp4);//append the elements to the parent p "transcript"
+            spanElementp4.addEventListener("mouseover", mOverh6, false);
+        }
+        for(i=0; i < trimStrp5.length; i++){
+            var spanElementp5 = document.createElement("span");//create span elements for the number of words in the trimStr array of words
+            spanElementp5.id = "word" + [ i];//create a unique id for each span element
+            var textNodep5 = document.createTextNode(trimStrp5[i] + " ");//create a textNode for each word in the trimStr array of words
+            spanElementp5.appendChild(textNodep5);//attach the nodes to the span elements
+            ptranscript5.appendChild(spanElementp5);//append the elements to the parent p "transcript"
+            spanElementp5.addEventListener("mouseover", mOverh7, false);
+        }
 
-        for(i=0; i < trimStr.length; i++){
+
+    for(i=0; i < trimStr.length; i++){
             var spanElement = document.createElement("span");//create span elements for the number of words in the trimStr array of words
             spanElement.id = "word" + [ i];//create a unique id for each span element
             var textNode = document.createTextNode(trimStr[i] + " ");//create a textNode for each word in the trimStr array of words
@@ -60,6 +109,10 @@ window.onload = function(){
             document.getElementById('htranscript').innerHTML = "";
             document.getElementById('htranscript2').innerHTML = "";
             document.getElementById('ptranscript3').innerHTML = "";
+            document.getElementById('htranscript4').innerHTML = "";
+            document.getElementById('htranscript5').innerHTML = "";
+            document.getElementById('ptranscript4').innerHTML = "";
+            document.getElementById('ptranscript5').innerHTML = "";
         }
 
 
@@ -75,6 +128,18 @@ window.onload = function(){
             evt.target.style.color ="#c08081";
         }
         function mOver3(evt){
+            evt.target.style.color ="#81c080";
+        }
+        function mOverh4(evt){
+            evt.target.style.color ="#c08081";
+        }
+        function mOverh5(evt){
+            evt.target.style.color ="#c08081";
+        }
+        function mOverh6(evt){
+            evt.target.style.color ="#81c080";
+        }
+        function mOverh7(evt){
             evt.target.style.color ="#81c080";
         }
 

@@ -37,17 +37,19 @@
 </head>
 
 
-<body style="background-color:#FFF3B8 ">
+<body style="background-color:#FFF3B8;">
 
 
         <div id="navbar">
 
             <ul id="navSelection" class="nav navbar-nav">
 
-                    <li class="navli"><a href="/">Home</a></li>
-                    <li class="navli"><a href="/about">About</a></li>
-                    <li class="navli"><a href="/contactform">Contact</a></li>
-                    <li class="navTitle"><a href=""> University Paint Pros 203-818-1859</a></li>
+                    <li class="navli"><a href="/">Home<br></a></li>
+                    <li class="navli"><a href="/about">About<br></a></li>
+                    <li class="navli"><a href="/contactform">Contact<br></a></li>
+                    <li class="navli"><a href="/paintcalculator">Paint Calculator<br>Color Theory</a></li>
+                    <li class="navli"><a href="/paint">Have Fun<br></a></li>
+                    <li class="navTitle"><a href=""> University Paint Pros 203-818-1859<br></a></li>
             </ul>
         </div>
 

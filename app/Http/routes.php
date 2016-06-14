@@ -27,9 +27,12 @@ Route::get('/about', function(){
 Route::get('/contactform', function(){
     return view('pages.contactform');
 });
+Route::get('/paintcalculator', function(){
+    return view('pages.paintcalculator');
+});
 Route::post('/profiles/create', 'ProfilesController@postCreate');
 
-
+/*
 Route::get('/debug', function() {
 
     echo '<pre>';
@@ -47,7 +50,7 @@ Route::get('/debug', function() {
     need to confirm your credentials.
     When you're done debugging, comment it back out so you don't accidentally leave it
     running on your live server, making your credentials public.
-    */
+
     //print_r(config('database.connections.mysql'));
 
     echo '<h1>Test Database Connection</h1>';
@@ -64,3 +67,4 @@ Route::get('/debug', function() {
     echo '</pre>';
 
 });
+*/
