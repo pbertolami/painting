@@ -1,5 +1,9 @@
 @extends('pages.layout')
-
+<head>
+    <meta name="google-site-verification" content="mb1q__YDWP4czvkJPH4ejiGrKGkl6SbdjY0EBaLYmgQ" />
+    <meta name="keywords" content="paint, painting, benjaminmoore, connecticut, danbury, painters, color, brookfield, ridgefield">
+    <meta name="description" content="Welcome to University Paint Pros, Specializing in exterior painting and deck staining, serving the greater Danbury CT area.">
+</head>
 
 @section('content')
 

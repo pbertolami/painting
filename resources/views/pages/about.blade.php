@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 id="htranscript2">About The Company and Founder:</h1>
-                <p id="ptranscript3">University Paint Pros was founded by Paul Bertolami of Brookfield Connecticut. We are registered as an LLC and are business insured. We specialize in deck maintenance and exterior house painting.
+                <p id="ptranscript3">University Paint Pros was started by Paul Bertolami of Brookfield Connecticut. We are registered as an LLC and are business insured. We specialize in deck maintenance and exterior house painting.
                     We pride ouselves in American ingenuity.</p>
 
                 <h1 id="htranscript4">Exterior House Painting:</h1>

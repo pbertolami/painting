@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/app.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">-->
-    <title>Final Project</title>
+
     <style>
-
-
         #navSelection {
             list-style-type: none;
             margin-right: 5%;
